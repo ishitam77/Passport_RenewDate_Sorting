@@ -18,7 +18,7 @@ typedef struct RenewPassport
 }rp;
 
 //function to compare the day,month and year seperately 
-bool datecom(const struct Date dd1,const struct Date dd2){
+bool datecom(const dt dd1,const dt dd2){
     if (dd1.yr < dd2.yr)
     {
       return 1;
